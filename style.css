@@ -1,0 +1,55 @@
+/* Definições de tema */
+body {
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Estilo padrão (claro) */
+body {
+  background-color: white;
+  color: black;
+}
+
+/* Estilo para tema escuro */
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+/* Estilos para containers e formulários */
+.container {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.container.dark {
+  background-color: #333;
+}
+
+/* Formulário */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Botões */
+.btn {
+  margin-top: 10px;
+}
+
+/* Exibição de resultados */
+.resultados {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Estilo de tema claro e escuro para resultados */
+.resultados.dark {
+  background-color: #444;
+  color: white;
+}
